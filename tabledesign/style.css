@@ -15,3 +15,41 @@ section {
   justify-content: center;
   height: 100vh;
 }
+
+table {
+  background-color: darkslateblue;
+  color: #fff;
+  border-collapse: separete;
+  border-spacing: 3px;
+}
+thead th,
+tbody td {
+  border: 1px solid #000;
+  padding: 20px;
+  padding-left: 25px;
+}
+
+thead th {
+  background-color: rgba(110, 24, 13, 0.918);
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: rgb(4, 26, 26);
+}
+
+tbody tr:last-child {
+  text-align: center;
+  background-color: darkgreen;
+}
+
+button {
+  background-color: aqua;
+  color: #000;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+}
+
+td:not(td:last-child) {
+  width: 22rem;
+}
